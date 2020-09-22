@@ -21,7 +21,13 @@ public class CatTest {
             System.out.println(cat);
         }
         //按名字进行排序
-        Collections.sort(catList,new NameComparator());
+//        Collections.sort(catList,new NameComparator());
+        System.out.println("排序后：");
+        for(Cat cat:catList){
+            System.out.println(cat);
+        }
+        //按年龄进行降序排序
+   //     Collections.sort(catList,new AgeComparator());
         System.out.println("排序后：");
         for(Cat cat:catList){
             System.out.println(cat);
